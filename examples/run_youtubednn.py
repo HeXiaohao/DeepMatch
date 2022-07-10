@@ -1,3 +1,7 @@
+# 20220711
+# 在 apple m1 pro 上跑通本例子
+# YoutubeDNN/MIND with sampled softmax
+
 import pandas as pd
 from deepctr.feature_column import SparseFeat, VarLenSparseFeat
 from deepmatch.models import *

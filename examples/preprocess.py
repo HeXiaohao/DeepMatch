@@ -1,6 +1,11 @@
+# 20220711
+# 在 apple m1 pro 上跑通 deepmatch
+
 import numpy as np
 import random
-from tensorflow.python.keras.preprocessing.sequence import pad_sequences
+# from tensorflow.python.keras.preprocessing.sequence import pad_sequences
+# tf2.9 需要修改为下述 api
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tqdm import tqdm
 
 
